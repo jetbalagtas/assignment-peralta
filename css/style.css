@@ -13,16 +13,23 @@ bg {
 
 .container {
   width: 55%;
-  margin: auto;
+  margin: 0 auto 10px auto;
   /*background-color: orange;*/
 }
 
 .col-4 {
-  width: 24%;
-  display: inline-block;
-  background-color: maroon;
+  width: 32%;
+  height: 180px;
   clear: both;
   overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  background-color: maroon;
+}
+
+nav .col-4 {
+  width: 24.5%;
+  height: 35px;
 }
 
 .col-4 p {
@@ -71,7 +78,6 @@ bg {
 }
 
 .col-3 {
-  margin-bottom: 30px;
   vertical-align: top;
   display: inline-block;
   clear: both;
@@ -80,24 +86,18 @@ bg {
   background-color: white;
 }
 
-.col-4 >.2fer img {
-  overflow: hidden;
+/*.2fer {
   width: 32%;
-  height: auto;
-  border: white;
-  border-style: solid;
-  border-width: thick;
+  height: 180px;
+  clear: both;
+  overflow: hidden;
+}*/
+
+.2fer img {
+  position: relative;
+  width: 75%;
+  margin: -20px 0 0 -20px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -105,9 +105,27 @@ bg {
   position: relative;
 }*/
 
+.col-1 {
+  background-color: white;
+  text-align: center;
+}
+
 .col-1 > img {
-  width: 8%;
+  vertical-align: top;
+  width: 6.5%;
   height: auto;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 5px 7px 5px 10px;
+}
+
+footer {
+  background-color: white;
+}
+
+h4 {
+  padding: 20px 0 0 20px;
+}
+
+footer p {
+  padding: 0 20px 0 20px;
+  width: 55%;
 }
