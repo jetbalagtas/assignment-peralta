@@ -21,6 +21,8 @@ bg {
   width: 24%;
   display: inline-block;
   background-color: maroon;
+  clear: both;
+  overflow: hidden;
 }
 
 .col-4 p {
@@ -78,7 +80,14 @@ bg {
   background-color: white;
 }
 
-
+.col-4 >.2fer img {
+  overflow: hidden;
+  width: 32%;
+  height: auto;
+  border: white;
+  border-style: solid;
+  border-width: thick;
+}
 
 
 
