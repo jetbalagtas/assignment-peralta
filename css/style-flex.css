@@ -14,13 +14,73 @@ bg {
 .container {
   width: 55%;
   margin: auto;
-  background-color: orange;
+  /*background-color: orange;*/
 }
 
-.social top {
-
+header {
+  padding-top: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+/*flexbox-1-social*/
+.social-top {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.subscribe {
+  width: 125px;
+  height: 46px;
+  line-height: 46px;
+  /*background-color: black;*/
+}
+
+.subscribe a {
+  font-size: .5em;
+  color: white;
+}
+
+.social-icons {
+  width: 44px;
+  height: 46px;
+  padding-left: 5px;
+}
+
+.social-icons img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+nav {
+  padding: 10px 0 10px 0;
+}
+
+/*flexbox-2-nav*/
+.navigation {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+nav .col-4 {
+  width: 24%;
+  height: 30px;
+  background-color: maroon;
+}
+
+nav .col-4 p {
+  text-align: center;
+  font-size: .65em;
+  color: white;
+}
 
 
 /*SAMPLE FLEX CODE SAMPLE FLEX CODE SAMPLE FLEX CODE*/
