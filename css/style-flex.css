@@ -80,30 +80,6 @@ nav .col-4 {
   background-color: maroon;
 }
 
-/*.container:nth-child(5) {
-  width: 56%;
-}
-
-.feat-posts {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-}
-
-.col-3 {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 200px;
-  height: 200px;
-  padding: 10px;
-  margin: 5px;
-  background-color: white;
-}*/
-
 nav .col-4 p {
   text-align: center;
   font-size: .65em;
@@ -196,31 +172,52 @@ h4 {
     align-items: flex-start;
 }*/
 
-
-.col-1 {
-  background-color: white;
-  text-align: center;
+.skateboards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
-.col-1 > img {
+/*.col-3 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: white;
+}*/
+
+.col-10 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 50px;
+  height: 180px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.col-10 img {
   vertical-align: top;
-  width: 6.5%;
-  height: auto;
-  padding: 5px 7px 5px 10px;
+  width: 42px;
 }
 
 /*flexbox-5 footer section*/
 footer {
   width: 100%;
   height: auto;
-  background-color: white;
+  background-color: orange;
 }
 .contact-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: flex-start;
   align-content: flex-start;
   margin-top: 20px;
 }
@@ -229,12 +226,12 @@ footer {
   flex-grow: 1;
   flex-shrink: 0
   flex-basis: 200px;
-  /*width: 50%;
-  height: auto;*/
+  width: 200px;
+  height: auto;
 }
 
 .footer-info p {
-  padding-left: 20px;
+  padding: 0 20px 0 20px;
   font-size: .65em;
 }
 
@@ -242,7 +239,6 @@ footer {
   width: 50%;
   height: 200;
 }
-
 
 /*flexbox-6 bottom social icons*/
 .social-bottom {
@@ -268,17 +264,3 @@ footer {
 .contact-section .social-bottom {
   padding-left: 20px;
 }
-
-
-
-
-
-/*SAMPLE FLEX CODE SAMPLE FLEX CODE SAMPLE FLEX CODE*/
-/*.flex-container {
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-}*/
