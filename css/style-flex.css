@@ -124,6 +124,7 @@ nav .col-4 p {
 
 /*flexbox-3 featured posts section*/
 .feat-posts {
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -174,16 +175,17 @@ h4 {
 
 /*flexbox-5 footer section*/
 footer {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+}
+.contact-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   align-content: flex-start;
-}
-
-.contact-section {
-  background-color: white;
   margin-top: 20px;
 }
 
@@ -196,6 +198,13 @@ footer {
   padding-left: 20px;
   font-size: .65em;
 }
+
+.contact-form {
+  width: 50%;
+  height: 200;
+  text-align: justify;
+}
+
 
 /*flexbox-6 bottom social icons*/
 .social-bottom {
@@ -220,11 +229,6 @@ footer {
 
 .contact-section .social-bottom {
   padding-left: 20px;
-}
-
-.contact-form {
-  width: 45%;
-  height: auto;
 }
 
 
