@@ -17,6 +17,23 @@ bg {
   background-color: orange;
 }
 
+.social top {
+
+}
+
+
+
+/*SAMPLE FLEX CODE SAMPLE FLEX CODE SAMPLE FLEX CODE*/
+/*.flex-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}*/
+
+
 /*.col-4 {
   width: 32%;
   height: 180px;
