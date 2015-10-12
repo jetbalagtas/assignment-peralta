@@ -15,7 +15,6 @@ bg {
 .container {
   width: 55%;
   margin: auto;
-  /*background-color: orange;*/
 }
 
 header {
@@ -25,7 +24,7 @@ header {
 a {
   text-decoration: none;
 }
-/*flexbox-1-social*/
+/*flexbox-1 social*/
 .social-top {
   display:flex;
   flex-direction: row;
@@ -161,7 +160,41 @@ h4 {
 }
 
 
-/*Put Sk8trs here*/
+/*flexbox skaters*/
+.container:nth-child(6) {
+  width: 56%;
+}
+
+.skaters {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.badboys-4 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  overflow: hidden;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+}
+
+.badboys-4 {
+
+}
+
+.skaters:nth-child(4) {
+
+}
+
 /*SAMPLE FLEX CODE SAMPLE FLEX CODE SAMPLE FLEX CODE*/
 /*.flex-container {
     display:flex;
@@ -181,16 +214,6 @@ h4 {
   align-items: flex-start;
 }
 
-/*.col-3 {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 200px;
-  height: 200px;
-  padding: 10px;
-  margin: 5px;
-  background-color: white;
-}*/
-
 .col-10 {
   flex-grow: 1;
   flex-shrink: 0;
@@ -206,7 +229,7 @@ h4 {
   width: 42px;
 }
 
-/*flexbox-5 footer section*/
+/*flexbox footer section*/
 footer {
   width: 100%;
   height: auto;
