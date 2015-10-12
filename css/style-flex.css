@@ -24,7 +24,7 @@ header {
 a {
   text-decoration: none;
 }
-/*flexbox-1 social*/
+/*flexbox social*/
 .social-top {
   display:flex;
   flex-direction: row;
@@ -60,7 +60,7 @@ nav {
   padding: 10px 0 10px 0;
 }
 
-/*flexbox-2-nav container*/
+/*flexbox nav container*/
 .navigation {
   display:flex;
   flex-direction: row;
@@ -74,7 +74,6 @@ nav .col-4 {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 100px;
-  overflow: hidden;
   margin: 5px;
   height: 32px;
   background-color: #a90e0e;
@@ -91,6 +90,7 @@ nav .col-4 p {
   width: 100%;
   height: 250px;
   overflow: hidden;
+
   vertical-align: top;
 }
 
@@ -110,11 +110,11 @@ nav .col-4 p {
 }
 
 .grid-layer {
-  overflow: hidden;
   position: relative;
   width: 100%;
   height: 260px;
   margin-top: -260px;
+  overflow: hidden;
 }
 
 .grid-layer img {
@@ -126,7 +126,7 @@ nav .col-4 p {
   color: #ffffff;
 }
 
-/*flexbox-3 featured posts section*/
+/*flexbox featured posts section*/
 .container:nth-child(5) {
   width: 56%;
 }
@@ -267,7 +267,7 @@ footer {
   height: 200;
 }
 
-/*flexbox-6 bottom social icons*/
+/*flexbox  bottom social icons*/
 .social-bottom {
   width: 95px;
   display:flex;
