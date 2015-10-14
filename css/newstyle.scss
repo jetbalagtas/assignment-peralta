@@ -109,6 +109,13 @@ nav .col-4 p {
   border-color: #ffffff;
 }
 
+.logo img {
+  width: 39%;
+  position: absolute;
+  top: 18%;
+  left: 2%;
+}
+
 .grid-layer {
   position: relative;
   width: 100%;
@@ -158,10 +165,6 @@ h4 {
 
 
 /*flexbox skaters*/
-.container.badboys-4 {
-  width: 56%;
-}
-
 .skaters {
   display:flex;
   flex-direction: row;
@@ -185,15 +188,6 @@ h4 {
   width: 33%;
 }
 
-// .skaters {
-//   display:flex;
-//   flex-direction: block;
-//   flex-wrap: wrap;
-//   justify-content: flex-start;
-//   align-content: flex-start;
-//   align-items: flex-start;
-// }
-
 .badboys-4 {
   flex-grow: 1;
   flex-shrink: 0;
@@ -216,46 +210,46 @@ h4 {
   color: white;
   font-size: 2rem;
   font-weight: bold;
-  top: 36px;
-  left: 2px;
+  top: 27%;
+  left: 0;
   text-align: center;
 }
 
-.badboys-4:nth-child(3) span {
-  top: 52px;
-  left: 62px;
+.steve span {
+  top: 34%;
+  left: 16%;
 }
 
 .tommy span {
-  top: 117px;
-  left: 0px;
+  top: 37%;
+  left: 0;
 }
 
 .lance img {
   position: absolute;
   width: 133%;
-  top: -10px;
-  left: -61px;
+  top: -7%;
+  left: -31%;
 }
 
 .tommy img {
   position: absolute;
   width: 260%;
-  top: 0px;
-  left: -266px;
+  top: 0;
+  left: -126%;
 }
 
 .rodney img {
   position: absolute;
-  width: 134%;
-  top: -15px;
+  width: 121%;
+  top: 0;
 }
 
 .steve img {
   position: absolute;
-  width: 108%;
-  top: -65px;
-  left: -14px;
+  width: 105%;
+  top: -45%;
+  left: 0;
 }
 
 .skateboards {
@@ -342,6 +336,11 @@ footer {
   padding-left: 20px;
 }
 
+#message {
+  width: 75%;
+  height: 70px;
+}
+
 @media (min-width: 320px) and (max-width: 320px) {
   .container {
     width: 86%;
@@ -351,5 +350,107 @@ footer {
 @media (min-width: 320px) and (max-width: 320px) {
   .container.feat-posts {
     width: 75%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px){
+  .twothirds {
+    width: 90%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .skaters {
+    width: 110%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .lance img {
+    position: absolute;
+    width: 127%;
+    top: -10%;
+    left: -23%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .lance span {
+    left: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .rodney img {
+    position: absolute;
+    width: 112%;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .rodney span {
+    left: 4%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .steve img {
+    position: absolute;
+    width: 124%;
+    top: -14px;
+    left: -14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .steve span {
+    top: 23%;
+    left: -1%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .badboys-4.tommy {
+    height: 145px;
+    width: 252%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .tommy img {
+    width: 175%;
+    left: -54%;
+    top: -12%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .tommy span {
+    top: 25%;
+    left: -5%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .top-img img {
+    width: 187%;
+    top: 39%;
+    left: 3%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .logo img {
+    width: 67%;
+    top: 27%;
+    left: 1%;
   }
 }
