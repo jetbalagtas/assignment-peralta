@@ -60,16 +60,16 @@ I performed node-sass on this project, and made it responsive for iPhone 5.
 * open in your favorite editor
 * in your terminal / command line, enter
 
-    serve
+    ```serve```
 
 * to compile the .scss file once, in another terminal window, cd into the css folder then enter
 
-    node-sass style.scss style.css
+    ```node-sass style.scss style.css```
 
 * to 'watch' and have it auto-compile while editing, the command is
 
-    node-sass style.scss style.css -w
+    ```node-sass style.scss style.css -w```
 
 * to see your changes in Chrome (you may need to refresh), enter the following in the url field
 
-    localhost:3000
+    ```localhost:3000```
