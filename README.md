@@ -51,11 +51,25 @@ I performed node-sass on this project, and made it responsive for iPhone 5.
 
 ### Cloning this repository
 
-* git clone git@github.com:jetbalagtas/peralta.git
+* in your terminal, enter
+
+    git clone git@github.com:jetbalagtas/peralta.git
 
 ### Developing
 
 * open in your favorite editor
-* in your terminal / command line, type 'serve' (without quotes)
-* in another terminal window or tab, cd into the css folder then type 'node-sass style.scss style.css' (without quotes) to compile once... to 'watch' and have it auto-compile while editing, the command is 'node-sass style.scss style.css -w'
-* in Chrome, type 'localhost:3000' in the url field (refresh to see changes)
+* in your terminal / command line, enter
+
+    serve
+
+* to compile the .scss file once, in another terminal window, cd into the css folder then enter
+
+    node-sass style.scss style.css
+
+* to 'watch' and have it auto-compile while editing, the command is
+
+    node-sass style.scss style.css -w
+
+* to see your changes in Chrome (you may need to refresh), enter the following in the url field
+
+    localhost:3000
