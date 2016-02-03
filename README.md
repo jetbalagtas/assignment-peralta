@@ -5,7 +5,7 @@
 ## Description
 Without fail, a front-end developer will need to convert a wireframe into a fully functioning website.
 
-For this assignment, we were turned this below wireframe into a site that renders well from a normal desktop size.
+For this assignment, we turned this below wireframe into a site that renders well from a normal desktop size.
 
 ![Powell Peralta](assets/powell_peralta.jpg)
 
