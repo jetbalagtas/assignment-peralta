@@ -53,7 +53,9 @@ I performed node-sass on this project, and made it responsive for iPhone 5.
 
 * in your terminal, enter
 
-    git clone git@github.com:jetbalagtas/peralta.git
+```
+git clone git@github.com:jetbalagtas/peralta.git
+```
 
 ### Developing
 
