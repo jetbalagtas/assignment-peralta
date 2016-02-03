@@ -15,7 +15,7 @@ For this assignment, we turned this below wireframe into a site that renders wel
 
 After completing this assignment, you should…
 
-* Have solid understanding of HTML/CSS.
+* Have a solid understanding of HTML/CSS.
 * Be able to leverage developer tools to debug css/html.
 
 ### Performance Objectives
